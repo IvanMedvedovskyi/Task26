@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_prev, .btn_next {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 35px;
+}
+
+.btn_prev:hover, .btn_next:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+.slider {
+    width: 256px;
+    height: 256px;
+    border: 2px solid black;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider__line {
+    height: 256px;
+    width: 1280px;
+    background-color: lightsalmon;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
